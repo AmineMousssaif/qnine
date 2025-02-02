@@ -29,7 +29,7 @@
           <div class="row">
               <div class="col-lg-8 col-md-8">
                 <ul class="top-info text-center text-md-left">
-                    <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">Leuven, Belgium</p>
+                    <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">The Netherlands</p>
                     </li>
                 </ul>
               </div>
@@ -65,7 +65,7 @@
 
                   
 
-                      <li class="nav-item"><a class="nav-link"  href="team.html">Goods Transport</a></li>
+                      <li class="nav-item"><a class="nav-link"  href="team.html">Cleaning Services</a></li>
 
               
               
@@ -87,7 +87,7 @@
 <!--/ Header end -->
 
 
-    <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner3.webp)">
+    <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner3.jpg)">
       <div class="banner-text">
         <div class="container">
           <div class="row">
@@ -113,210 +113,157 @@
         <div class="row">
           <div class="col-md-12">
             <form
-              id="contact-form"
-              action="https://api.web3forms.com/submit"
-              method="POST"
-              role="form"
-            >
-              <input type="hidden" name="access_key" value="5f90a9fd-5204-4d07-85d2-af33ee5150b7" />
-            <!-- Company and Contact Information Section -->
-            <fieldset>
-              <legend>Company & Contact Information</legend>
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="company-name">Company Name</label>
-                    <input class="form-control" name="company-name" id="company-name" type="text" placeholder="Your Company Name" required>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="contact-name">Contact Person</label>
-                    <input class="form-control" name="contact-name" id="contact-name" type="text" placeholder="Your Full Name" required>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input class="form-control" name="email" id="email" type="email" placeholder="Your Email" required>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input class="form-control" name="phone" id="phone" type="text" placeholder="Your Phone Number" required>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="company-address">Company Address</label>
-                    <input class="form-control" name="company-address" id="company-address" type="text" placeholder="Your Company Address" required>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
+      id="contact-form"
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      role="form"
+    >
+      <input type="hidden" name="access_key" value="5f90a9fd-5204-4d07-85d2-af33ee5150b7" />
 
-            <!-- Goods Description Section -->
-            <fieldset>
-              <legend>Goods Description</legend>
-              <div class="form-group">
-                <label for="goods">Describe the Goods</label>
-                <textarea class="form-control" name="goods" id="goods" rows="4" placeholder="Provide details about the goods to be imported or exported." required></textarea>
-              </div>
-            </fieldset>
-
-            <!-- Export/Import Country Section -->
-            <fieldset>
-              <legend>Export / Import Country</legend>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="export-country">Export Country</label>
-                    <input class="form-control" name="export-country" id="export-country" type="text" placeholder="Country of Origin" required>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="import-country">Import Country</label>
-                    <input class="form-control" name="import-country" id="import-country" type="text" placeholder="Destination Country" required>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-
-            <!-- Shipping Method Section -->
-            <fieldset>
-              <legend>Shipping Method</legend>
-              <div class="form-group">
-                <label for="shipping-method">Select Shipping Method</label>
-                <select class="form-control" name="shipping-method" id="shipping-method" required>
-                  <option value="">-- Select Shipping Method --</option>
-                  <option value="Air Freight">Air Freight</option>
-                  <option value="Sea Freight">Sea Freight</option>
-                  <option value="Land Transport">Land Transport</option>
-                </select>
-              </div>
-            </fieldset>
-
-            <!-- Pick-up Location Section -->
-            <fieldset>
-              <legend>Pick-up Location</legend>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="pickup-address">Pick-up Address</label>
-                    <input class="form-control" name="pickup-address" id="pickup-address" type="text" placeholder="Pick-up Address" required>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="form-group">
-                    <label for="pickup-city">City</label>
-                    <input class="form-control" name="pickup-city" id="pickup-city" type="text" placeholder="City" required>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="form-group">
-                    <label for="pickup-zip">Zip Code</label>
-                    <input class="form-control" name="pickup-zip" id="pickup-zip" type="text" placeholder="Zip Code" required>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-
-            <!-- Delivery Address Section -->
-            <fieldset>
-              <legend>Delivery Address</legend>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="delivery-address">Delivery Address</label>
-                    <input class="form-control" name="delivery-address" id="delivery-address" type="text" placeholder="Delivery Address" required>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="form-group">
-                    <label for="delivery-city">City</label>
-                    <input class="form-control" name="delivery-city" id="delivery-city" type="text" placeholder="City" required>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="form-group">
-                    <label for="delivery-zip">Zip Code</label>
-                    <input class="form-control" name="delivery-zip" id="delivery-zip" type="text" placeholder="Zip Code" required>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-
-            <!-- Estimated Time of Arrival Section -->
-            <fieldset>
-              <legend>Estimated Time of Arrival (ETA)</legend>
-              <div class="form-group">
-                <label for="eta">Estimated Arrival Date</label>
-                <input class="form-control" name="eta" id="eta" type="date" required>
-              </div>
-            </fieldset>
-
-            <div class="text-right">
-              <button class="btn btn-primary solid blank" type="submit">Submit Request</button>
+      <!-- Contact Information Section -->
+      <fieldset>
+        <legend>Contact Information</legend>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input class="form-control" name="name" id="name" type="text" placeholder="Your Full Name" required>
             </div>
-          </form>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input class="form-control" name="email" id="email" type="email" placeholder="Your Email" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input class="form-control" name="phone" id="phone" type="text" placeholder="Your Phone Number" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="company-name">Company (Optional)</label>
+              <input class="form-control" name="company-name" id="company-name" type="text" placeholder="Your Company Name">
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Service Request Section -->
+      <fieldset>
+        <legend>Service Request</legend>
+        <div class="form-group">
+          <label for="service-type">Type of Service</label>
+          <select class="form-control" name="service-type" id="service-type" required>
+            <option value="">-- Select Service --</option>
+            <option value="Office Cleaning">Office Cleaning</option>
+            <option value="Industrial Cleaning">Industrial Cleaning</option>
+            <option value="Window / Facade Cleaning">Window / Facade Cleaning</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="details">Additional Information</label>
+          <textarea class="form-control" name="details" id="details" rows="4" placeholder="Provide details about your cleaning needs." required></textarea>
+        </div>
+      </fieldset>
+
+      <!-- Address Information Section -->
+      <fieldset>
+        <legend>Service Location</legend>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="address">Service Address</label>
+              <input class="form-control" name="address" id="address" type="text" placeholder="Service Location Address" required>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="city">City</label>
+              <input class="form-control" name="city" id="city" type="text" placeholder="City" required>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="zip">Zip Code</label>
+              <input class="form-control" name="zip" id="zip" type="text" placeholder="Zip Code" required>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Preferred Cleaning Schedule Section -->
+      <fieldset>
+        <legend>Preferred Cleaning Schedule</legend>
+        <div class="form-group">
+          <label for="schedule">Preferred Date & Time</label>
+          <input class="form-control" name="schedule" id="schedule" type="datetime-local" required>
+        </div>
+      </fieldset>
+
+      <div class="text-right">
+        <button class="btn btn-primary solid blank" type="submit">Submit Request</button>
+      </div>
+    </form>
           </div>
         </div>
       </div>
     </section>
 
     <footer id="footer" class="footer bg-overlay">
-    <div class="footer-main">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-4 col-md-6 footer-widget footer-about">
-            <h3 class="widget-title">About Us</h3>
-            <p>At Import-Export Top, we simplify global trade with reliable logistics solutions. From customs handling to air, sea, and land transport, we ensure safe, on-time delivery for businesses across industries, opening doors to new markets.</p>
-           
-          </div><!-- Col end -->
-
-          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
-            <h3 class="widget-title">Working Hours</h3>
-            <div class="working-hours">
-               Tuesday - Friday: <span class="text-right">09:00 - 12:00</span>
-              <br> Monday: <span class="text-right">09:00 - 14:00 & 13:00 - 17:00</span>
-              <br> Weekends and holidays: <span class="text-right">Closed</span>
-            </div>
-          </div><!-- Col end -->
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
-            <h3 class="widget-title">Services</h3>
-            <ul class="list-arrow">
-            <li><a >Import</a></li>
-            <li><a>Export</a></li>
-            </ul>
-          </div><!-- Col end -->
-        </div><!-- Row end -->
-      </div><!-- Container end -->
-    </div><!-- Footer main end -->
-
-    <div class="copyright">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="copyright-info">
-              <span>Copyright &copy; <script>
-                  document.write(new Date().getFullYear())
-                </script>, Designed &amp; Developed by Import-Export Top</span>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="footer-menu text-center text-md-right">
-              <ul class="list-unstyled">
-                <li><a>BE1017303930</a></li>
+      <div class="footer-main">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-4 col-md-6 footer-widget footer-about">
+              <h3 class="widget-title">About Us</h3>
+              <p>Qnine is a Dutch cleaning company committed to delivering high-quality, eco-friendly cleaning services. We provide reliable, flexible solutions for businesses and individuals across the Netherlands, ensuring spotless and hygienic spaces every time.</p>
+             
+            </div><!-- Col end -->
+  
+            <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+              <h3 class="widget-title">Working Hours</h3>
+              <div class="working-hours">
+                 Tuesday - Friday: <span class="text-right">09:00 - 12:00</span>
+                <br> Monday: <span class="text-right">09:00 - 14:00 & 13:00 - 17:00</span>
+                <br> Weekends and holidays: <span class="text-right">Closed</span>
+              </div>
+            </div><!-- Col end -->
+  
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+              <h3 class="widget-title">Services</h3>
+              <ul class="list-arrow">
+              <li><a >Office cleaning</a></li>
+              <li><a>Industrial cleaning</a></li>
+              <li><a>Window and facade cleaning</a></li>
               </ul>
+            </div><!-- Col end -->
+          </div><!-- Row end -->
+        </div><!-- Container end -->
+      </div><!-- Footer main end -->
+  
+      <div class="copyright">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="copyright-info">
+                <span>Copyright &copy; <script>
+                    document.write(new Date().getFullYear())
+                  </script>, Designed &amp; Developed by Import-Export Top</span>
+              </div>
             </div>
-          </div>
-        </div><!-- Row end -->
+  
+            <div class="col-md-6">
+              <div class="footer-menu text-center text-md-right">
+                <ul class="list-unstyled">
+                  <li><a>NL</a></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- Row end -->
 
         <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
           <button class="btn btn-primary" title="Back to Top">
